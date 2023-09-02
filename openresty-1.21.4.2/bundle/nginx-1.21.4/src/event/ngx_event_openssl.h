@@ -119,6 +119,23 @@ struct ngx_ssl_connection_s {
     unsigned                    in_ocsp:1;
     unsigned                    early_preread:1;
     unsigned                    write_blocked:1;
+
+/* ----- JA3 HACK START -----------------------------------------------------*/
+#if OPENSSL_VERSION_NUMBER >= 0x10101000L
+
+    size_t                      ciphers_sz;
+    unsigned short             *ciphers;
+
+    size_t                      extensions_size;
+    int                        *extensions;
+
+    size_t                      curves_sz;
+    unsigned short             *curves;
+
+    size_t                      point_formats_sz;
+    unsigned char              *point_formats;
+#endif
+/* ----- JA3 HACK END -------------------------------------------------------*/
 };
 
 
