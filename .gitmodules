@@ -62,7 +62,7 @@
 	path = deps/libmaxminddb
 	url = https://github.com/maxmind/libmaxminddb.git
 	branch = main
-[submodule "deps/ModSecurity-nginx"]
-	path = deps/ModSecurity-nginx
+[submodule "modules/ModSecurity-nginx"]
+	path = modules/ModSecurity-nginx
 	url = https://github.com/NilShieldLabs/ModSecurity-nginx.git
 	branch = master
