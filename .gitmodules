@@ -58,3 +58,7 @@
 	path = deps/openssl
 	url = https://github.com/NilShieldLabs/openssl.git
 	branch = OpenSSL_1_1_1-stable
+[submodule "deps/libmaxminddb"]
+	path = deps/libmaxminddb
+	url = https://github.com/maxmind/libmaxminddb.git
+	branch = main
