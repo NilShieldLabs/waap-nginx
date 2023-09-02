@@ -1,0 +1,60 @@
+[submodule "deps/librdkafka"]
+	path = deps/librdkafka
+	url = https://github.com/confluentinc/librdkafka.git
+	branch = v2.2.0
+[submodule "modules/nginx-json-log"]
+	path = modules/nginx-json-log
+	url = https://github.com/fooinha/nginx-json-log.git
+	branch = master
+[submodule "modules/nginx-module-stream-sts"]
+	path = modules/nginx-module-stream-sts
+	url = https://github.com/vozlt/nginx-module-stream-sts.git
+	branch = master
+[submodule "modules/nginx-module-sts"]
+	path = modules/nginx-module-sts
+	url = https://github.com/vozlt/nginx-module-sts.git
+	branch = master
+[submodule "modules/nginx-module-vts"]
+	path = modules/nginx-module-vts
+	url = https://github.com/vozlt/nginx-module-vts.git
+	branch = master
+[submodule "modules/nginx-ssl-ja3"]
+	path = modules/nginx-ssl-ja3
+	url = https://github.com/fooinha/nginx-ssl-ja3.git
+	branch = master
+[submodule "modules/nginx-sticky-module-ng"]
+	path = modules/nginx-sticky-module-ng
+	url = https://github.com/dvershinin/nginx-sticky-module-ng.git
+	branch = master
+[submodule "modules/nginx-stream-upsync-module"]
+	path = modules/nginx-stream-upsync-module
+	url = https://github.com/xiaokai-wang/nginx-stream-upsync-module.git
+	branch = master
+[submodule "modules/nginx-upsync-module"]
+	path = modules/nginx-upsync-module
+	url = https://github.com/weibocom/nginx-upsync-module.git
+	branch = master
+[submodule "modules/ngx_dynamic_upstream"]
+	path = modules/ngx_dynamic_upstream
+	url = https://github.com/cubicdaiya/ngx_dynamic_upstream.git
+	branch = master
+[submodule "modules/ngx_http_geoip2_module"]
+	path = modules/ngx_http_geoip2_module
+	url = https://github.com/leev/ngx_http_geoip2_module.git
+	branch = master
+[submodule "modules/njs"]
+	path = modules/njs
+	url = https://github.com/nginx/njs.git
+	branch = master
+[submodule "deps/jansson"]
+	path = deps/jansson
+	url = https://github.com/akheron/jansson.git
+	branch = master
+[submodule "deps/pcre2"]
+	path = deps/pcre2
+	url = https://github.com/PCRE2Project/pcre2.git
+    branch = pcre2-10.42
+[submodule "deps/openssl"]
+	path = deps/openssl
+	url = https://github.com/NilShieldLabs/openssl.git
+	branch = OpenSSL_1_1_1-stable
