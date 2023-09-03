@@ -1,0 +1,8 @@
+version: "3.1"
+
+services:
+  waap-dev:
+    image: debian:buster-slim
+    entrypoint: [ "tail", "-f", "/dev/null" ]
+    volumes:
+      - $PWD:/code/waap-nginx
