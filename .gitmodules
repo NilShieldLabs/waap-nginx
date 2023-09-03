@@ -62,6 +62,7 @@
 	path = deps/libmaxminddb
 	url = https://github.com/maxmind/libmaxminddb.git
 	branch = main
+	shallow = true
 [submodule "modules/ModSecurity-nginx"]
 	path = modules/ModSecurity-nginx
 	url = https://github.com/NilShieldLabs/ModSecurity-nginx.git
